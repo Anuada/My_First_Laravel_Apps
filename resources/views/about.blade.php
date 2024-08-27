@@ -13,11 +13,12 @@
             <a href="#projects" class="w3-bar-item w3-button">Projects</a>
             <a href="#about" class="w3-bar-item w3-button">About</a>
             <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="/Anuada" class="w3-bar-item w3-button">Home</a>
         </div>
     </div>
 </div>
 
-<!-- Header -->
+
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
     <img class="w3-image" src="/image/gg.jpg" alt="Architecture" width="1500" height="800">
     <div class="w3-display-middle w3-margin-top w3-center">
@@ -25,10 +26,9 @@
     </div>
 </header>
 
-<!-- Page content -->
+
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-    <!-- Project Section -->
     <div class="w3-container w3-padding-32" id="projects">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
     </div>
@@ -87,7 +87,7 @@
         </div>
     </div>
 
-    <!-- About Section -->
+
     <div class="w3-container w3-padding-32" id="about">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    <!-- Contact Section -->
+
     <div class="w3-container w3-padding-32" id="contact">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
         <p>Lets get in touch and talk about your next project.</p>
@@ -142,16 +142,15 @@
         </form>
     </div>
 
-    <!-- Image of location/map -->
     <div class="w3-container">
         <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
     </div>
 
-    <!-- End page content -->
+
 </div>
 
 
-<!-- Footer -->
+
 <footer class="w3-center w3-black w3-padding-16">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
