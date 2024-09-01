@@ -1,8 +1,6 @@
 @extends('components.layout')
 
-@section('customcss')
-<link rel="stylesheet" href="/css/font.css">
-@endsection
+
 
 @section('content')
 <div class="w3-top">

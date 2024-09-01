@@ -1,9 +1,56 @@
-h1 {
-    color:aqua;
-    text-align:center;
+/* Basic reset */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
-.w3-container {
+/* Navbar container */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
-    margin-top:20px;
+/* Navbar content container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Navbar links container */
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar items */
+.navbar-item {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+
+    /* You can add a button or hamburger menu here for mobile view */
 }

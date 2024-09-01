@@ -3,7 +3,9 @@
 use App\Http\Controllers\AnuadaController;
 use App\Http\Controllers\AnuadaSecondController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\Dashboard;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/Anuada', [AnuadaController::class, 'anuada']);
 Route::get('/Second', [AnuadaSecondController::class, 'ericson']);
 Route::get('/About', [AboutController::class, 'About']);
+Route::get('/Dashboard', [Dashboard::class, 'dashboard']);
